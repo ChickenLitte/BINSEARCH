@@ -1,0 +1,2 @@
+# BINSEARCH
+Binary Search Algorythm
