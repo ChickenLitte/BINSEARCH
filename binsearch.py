@@ -12,5 +12,5 @@ def binladen(element, collection, start, stop):
 binladen_wanted_list = sorted(random.sample(range(1, 100), 10))#generates a random list
 wanted = random.randint(1,100)
 
-print("is",wanted,"in",binladen_wanted_list)
+print("binladen is searching for",wanted,"in",binladen_wanted_list)
 print(binladen(wanted, binladen_wanted_list, 0, len(binladen_wanted_list) - 1))
